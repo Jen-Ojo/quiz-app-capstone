@@ -1,16 +1,89 @@
-# React + Vite
+Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application allows users to select a quiz topic and difficulty, answer multiple-choice questions one at a time, and see their final score. It consumes quiz data dynamically from the Open Trivia Database API
+.
 
-Currently, two official plugins are available:
+The project demonstrates:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React component architecture
 
-## React Compiler
+API integration
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+State management with React hooks
 
-## Expanding the ESLint configuration
+Responsive UI design with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Deployment-ready web application
+
+🎯 Features
+✅ Implemented So Far
+
+Project structure created (components, pages, services)
+
+Tailwind CSS installed and configured
+
+Home screen layout completed
+
+QuizSetup component scaffolded
+
+High-fidelity Figma designs created
+
+🚀 Planned Features
+
+Fetch quiz questions dynamically based on category/difficulty
+
+Question navigation with “Next” button
+
+Display score at the end of the quiz
+
+Restart quiz and go home functionality
+
+Progress indicator for current question
+
+Correct/incorrect answer feedback
+
+💻 Technologies Used
+
+Frontend: React (Vite)
+
+Styling: Tailwind CSS
+
+API: Open Trivia Database
+
+Version Control: Git + GitHub
+
+Deployment: Netlify / Vercel
+
+📂 Project Structure
+quiz-app-capstone/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── QuizSetup.jsx
+│   │   ├── QuestionCard.jsx
+│   │   ├── AnswerOption.jsx
+│   │   └── ScoreSummary.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Quiz.jsx
+│   │   └── Result.jsx
+│   │
+│   ├── services/
+│   │   └── quizApi.js
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── README.md
+├── package.json
+└── tailwind.config.js
+
+👤 Author
+
+Jennifer Ojo
+
+GitHub: https://github.com/Jen-Ojo
+LinkedIn: (linkedin.com/in/jennifer-ojo-389215129)
